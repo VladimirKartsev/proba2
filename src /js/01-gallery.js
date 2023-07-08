@@ -17,7 +17,7 @@ function createGalleryItems(items) {
     })
     .join('');
 }
-// galleryList.Style.listStyle = 'none';
+galleryList.Style.listStyle = 'none';
 var lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
